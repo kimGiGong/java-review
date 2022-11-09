@@ -87,9 +87,20 @@ public class study {
     인터페이스로 부터만 상속 가능
     인터페이스는 다중 상속이 가능
     implements 를 통해 구현
+    
+
+
+    Exception 예외처리 : 
+
+    try{
+
+    }catch (Exception e1 ){
+    }catch (Exception e2 ){
+    }catch (Exception e3 ){
+
+    }
+     다중 catch 가능
+
+
      */
-
-
-
-
 }

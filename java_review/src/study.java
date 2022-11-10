@@ -99,7 +99,7 @@ public class study {
     }catch (Exception e3 ){
 
     }
-     다중 catch 가능
+     다중 catch 가능  
 
 
      */

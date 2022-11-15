@@ -104,6 +104,49 @@ public class study {
      finally{
         
      }
+    
+    유용한 클래스 
+
+    Object class:
+
+
+    equals() , + 오버라이딩
+    객체를 비교 하는게 아닌 객체 안의 id 값등을 비교하도록 오버라이딩 할수 있다.
+
+
+
+    hashcode() 객체의 주소값으로 해쉬코드 생성
+    String class는 내용이 같으면 동일한 해쉬 코드를 생성해주고
+    odentityHashCode() 는 모든 객체가 다른 해쉬코드를 생성한다.
+
+
+
+    toString() , + 오버라이딩
+    인스턴스 정보를 문자열로 제공하는 목적으로 사용된다.
+    Object Class의 toString()은 다음과 같다
+
+    Public String toString(){
+        return getClass().getName()+"@"+Integer.toHexString(hashcode());
+    }
+
+    따라서 Card 클래스를 toString() 하면 예로 Card@1f5a8 이런 형태로 나온다.
+    그래서 toString 을 오버라이딩 할 필요가 있다.
+
+
+
+    StringJoiner Class 의 add() 메서드를 통해 ("구분자", "시작 [ ","끝 ] ") .toString으로 문자열 출력
+    join() 메서드 : 배열의 문자열을 '-'등의 구분자로 연결 
+
+    StringBuilder 클래스가 있다.
+
+
+    Wrapper 클래스에는 다음이 있다
+    .parseInt() 는 문자열 -> 기본형
+    .valueOf()  는 문자열 -> 래퍼 클래스로 변환한다.
+
+    오토박싱 은  기본형 -> 래퍼 클래스로 자동 변환해주는것
+
+    언박싱 은 래퍼 클래스 -> 기본형 으로 변환하는것
 
      */
 }
